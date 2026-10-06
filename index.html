@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="container">
+            <div class="header-wrapper">
+                <header id="title">Metric/Imperial Unit conversion</header>
+                <input id="qty" type="text">
+                <button id="convert-btn">Convert</button> 
+            </div>
+
+            <div class="conversion-wrapper">
+                <div class="conversion-length">
+                    <p class="conversion-title">
+                        Length (Meters/Feet)
+                    </p>
+                    <p class="conversion-data">
+                        <toFeet id="feet-el"> </toFeet> | <toMeters id="meters-el"></toMeters>
+                    </p>
+                </div>
+
+                <div class="conversion-volume">
+                    <p class="conversion-title">
+                        Volume (Liters/Gallons)
+                    </p>
+                    <p class="conversion-data">
+                        <toGallons id="gallons-el"> liters = 5.284 gallons</toGallons> | <toLiters id="liters-el">20 gallons = 75.708 liters</toLiters>
+                    </p>
+                </div>
+
+                <div class="conversion-mass">
+                    <p class="conversion-title">
+                        Mass (Kilograms/Pounds)
+                    </p>
+                    <p class="conversion-data">
+                        <toPounds id="pounds-el">20 kilos = 44.092 pounds</toPounds> | <toKilos id="kilos-el"> pounds = 9.072 kilos</toKilos>
+                    </p>
+                </div>
+
+            </div>
+
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
+
+
+
+       
