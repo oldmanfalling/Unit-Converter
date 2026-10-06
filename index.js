@@ -20,12 +20,12 @@ convertBtn.addEventListener("click", function() {
     let kilos = inputField * kiloToPound
     let pounds = inputField / kiloToPound
 
-    feetEl.innerHTML = `meters = ${meters.toFixed(3)} feet`
-    metersEl.innerHTML = `feet = ${feet.toFixed(3)} meters`
-    literEl.innerHTML = `gallons = ${gallons.toFixed(3)} liters`
-    gallonEl.innerHTML = `liters = ${liters.toFixed(3)} gallons`
-    poundEl.innerHTML = `kilos = ${kilos.toFixed(3)} pounds`
-    kiloEl.innerHTML = `pounds = ${pounds.toFixed(3)} kilos`
+    feetEl.innerHTML = `${inputField} meters = ${meters.toFixed(3)} feet`
+    metersEl.innerHTML = `${inputField} feet = ${feet.toFixed(3)} meters`
+    literEl.innerHTML = `${inputField} gallons = ${gallons.toFixed(3)} liters`
+    gallonEl.innerHTML = `${inputField} liters = ${liters.toFixed(3)} gallons`
+    poundEl.innerHTML = `${inputField} kilos = ${kilos.toFixed(3)} pounds`
+    kiloEl.innerHTML = `${inputField} pounds = ${pounds.toFixed(3)} kilos`
     
 })
 
